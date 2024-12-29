@@ -1,0 +1,42 @@
+dreamuniadvisors/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── images/
+│       ├── hero-image.jpg
+│       └── logo.png
+├── src/
+│   ├── components/
+│   │   ├── common/
+│   │   │   └── Button.js
+│   │   ├── layout/
+│   │   │   ├── Navbar.js
+│   │   │   └── Footer.js
+│   │   └── sections/
+│   │       ├── ServicesSection.js
+│   │       ├── PricingSection.js
+│   │       ├── UniversityDatabase.js
+│   │       └── ProcessTimeline.js
+│   ├── pages/
+│   │   ├── HomePage.js
+│   │   ├── ServicesPage.js
+│   │   ├── ResourcesPage.js
+│   │   ├── BlogPage.js
+│   │   ├── AboutPage.js
+│   │   └── ContactPage.js
+│   ├── features/
+│   │   └── booking/
+│   │       └── bookingSlice.js
+│   ├── hooks/
+│   │   └── useScrollPosition.js
+│   ├── services/
+│   │   └── api.js
+│   ├── utils/
+│   │   └── constants.js
+│   ├── styles/
+│   │   └── index.css
+│   ├── App.js
+│   └── index.js
+├── tailwind.config.js
+├── postcss.config.js
+└── package.json 

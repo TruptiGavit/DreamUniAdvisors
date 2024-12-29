@@ -1,0 +1,9 @@
+# Create React app if not already done
+npx create-react-app dreamuniadvisors
+cd dreamuniadvisors
+
+# Install required dependencies
+npm install @headlessui/react @heroicons/react framer-motion react-router-dom @reduxjs/toolkit react-query axios tailwindcss postcss autoprefixer react-icons 
+
+# Initialize Tailwind CSS
+npx tailwindcss init -p 
